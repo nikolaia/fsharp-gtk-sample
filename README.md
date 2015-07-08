@@ -1,4 +1,6 @@
-To find gtk from fsi you'll have to add the following lines to your mono config (/Library/Frameworks/Mono.framework/Versions/Current/etc/mono/config)
+# fsharp-gtk-sample
+
+To find Gtk from an FSI session on OS X you will have to add the following lines to your Mono config (```/Library/Frameworks/Mono.framework/Versions/Current/etc/mono/config```)
 
 ```
 <dllmap dll="libgtk-win32-2.0-0.dll" target="/Library/Frameworks/Mono.framework/Versions/Current/lib/libgtk-quartz-2.0.0.dylib" />
